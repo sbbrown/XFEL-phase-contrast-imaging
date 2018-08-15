@@ -4,11 +4,11 @@ This script creates a forward simulation of a coherent beam as it propagates thr
 ## Motivation
 This siumlation creates a forward simulation of the expected beam profile at a downstream detector of a coherent light pulse that has passed through a sample with zero, one, or multiple discontinuities (phases shifts) introduced in the plane perpendicular to the x-ray propagation vector. This siumlation does not analyze/reconstruct phase contrast images.
 
-The advent of highly-coherent, ultrabright x-ray sources enables imaging through dense solids. When these solids are subjected to external loading, they exhibit a dynamic response with multiple elastic and plastic components. When a materials undergoes rapid compression, tension, or a change of phase, the localized index of refraction changes; this introduces a phase shift into the portion of an imaging x-ray pulse that traverses the local part of the sample. The magnitude of phase shift introduced in a material can be specified a priori or by measuring the visibility of a recorded data image taken with a coherent beam imaging through a material with sharp discontinuities.
+The advent of highly-coherent, ultrabright x-ray sources enables imaging through dense solids. When a materials undergoes rapid compression, tension, or a change of phase, the localized index of refraction changes; this introduces a phase shift into the portion of an imaging x-ray pulse that traverses the local part of the sample. The magnitude of phase shift introduced in a material can be specified a priori or by measuring the visibility of a recorded data image taken with a coherent beam imaging through a material with sharp discontinuities.
 
 For a full explanation of the setup, mathematical formulation, and analysis of phase contrast imaging, please see 
-**Schropp, Andreas, et al.** "Imaging shock waves in diamond with both high temporal and spatial resolution at an XFEL." Scientific reports 5 (2015): 11089.
-**Nagler, Bob, et al.** "The phase-contrast imaging instrument at the matter in extreme conditions endstation at LCLS." Review of Scientific Instruments 87.10 (2016): 103701.
+* **Schropp, Andreas, et al.** "Imaging shock waves in diamond with both high temporal and spatial resolution at an XFEL." Scientific reports 5 (2015): 11089.
+* **Nagler, Bob, et al.** "The phase-contrast imaging instrument at the matter in extreme conditions endstation at LCLS." Review of Scientific Instruments 87.10 (2016): 103701.
 
 ## Code style
 Google python style guide https://github.com/google/styleguide/blob/gh-pages/pyguide.md
